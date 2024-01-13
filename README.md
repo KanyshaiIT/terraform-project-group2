@@ -2,8 +2,8 @@
 
 ```hcl
 module "vpc" {
-    source = ""
-    version = "0.0.2"
+    source = "KanyshaiIT/group2/project"
+    version = "0.0.3"
     region = "us-west-1"
     vpc_cidr = "10.0.0.0/16"
     vpc_name = "group-2"
