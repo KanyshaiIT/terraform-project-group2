@@ -32,3 +32,13 @@ variable instance_type {
     description = "Provide instance type"
     default = "t2.large"
 }
+
+variable key_name {
+    type = string
+    default = ""    
+}
+
+variable type {
+    type = bool
+    default = true
+}
